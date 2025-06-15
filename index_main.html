@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanabodi's Portfolio</title>
+    <link rel="stylesheet" href="style_main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Thanabodi Phuchomsi</h1>
+            <p>Data Scientist | Machine Learning Engineer | Data Analyst</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#Awards & Activities">Awards & Activities</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section id="about">
+            <h2><img src="https://img.icons8.com/ios-filled/50/ffffff/user.png" alt="About Me Icon" class="icon">About Me</h2>
+            <div class="about-content">
+                <img src="./images/profile.png" alt="Your Profile Picture" class="profile-pic">
+                <p>I am a Data Scientist with advanced skills in building and deploying predictive models using Python (Scikit-learn, TensorFlow), R, and SQL. My key projects demonstrate a strong capacity for end-to-end data science workflows. For my award-winning senior project, I developed and compared CNN, LSTM, and Transformer models on time-series medical data, achieving an AUC-ROC of 0.89 with a CNN+LSTM architecture for ICU shock prediction. Additionally, I have practical experience in data-driven marketing, where I engineered a "Smart Target" solution using K-Means clustering and a Random Forest classifier to prove a significant uplift in ROI. My technical foundation is complemented by certifications in Google Business Intelligence and NVIDIA's deep learning for disaster risk monitoring.</p>
+            </div>
+        </section>
+        <section id="education">
+            <h2>
+                <img src="https://img.icons8.com/ios-filled/50/ffffff/graduation-cap.png" 
+                     alt="Education Icon" class="icon"> 
+                Education
+            </h2>
+            <div>
+                <p><strong>Bachelor of Science (2021–2025)</strong><br>
+                Major in Statistical Information and Data Science – <u>GPAX: 3.65</u>, First-Class Honors.</p>
+        
+                <p><strong>Senior Thesis</strong><br>
+                “Developing a Time Series Deep Learning Model to Predict Shock in ICU Patients at Srinagarind Hospital, Khon Kaen”</p>
+        
+                <p><strong>Relevant Coursework</strong><br>
+                Machine Learning, Deep Learning, Time Series Analysis, Data Visualization, Statistical Analysis, Database Systems, Big Data Analytics, Data Warehouse</p>
+            </div>
+        </section>        
+        <section id="skills">
+            <h2>
+              <img src="https://img.icons8.com/ios-filled/50/ffffff/development-skill.png" 
+                   alt="Skills Icon" class="icon">
+              Skills
+            </h2>
+            <div class="skills-container" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+              
+              <div class="skill-category">
+                <h3 style="font-weight: bold; color: #34495e;">Programming Languages</h3>
+                <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+                  <span style="background-color: #444; color: #fff; padding: 5px 10px; border-radius: 20px;">SQL</span>
+                  <span style="background-color: #444; color: #fff; padding: 5px 10px; border-radius: 20px;">R</span>
+                  <span style="background-color: #444; color: #fff; padding: 5px 10px; border-radius: 20px;">Python</span>
+                  <span style="background-color: #444; color: #fff; padding: 5px 10px; border-radius: 20px;">HTML</span>
+                  <span style="background-color: #444; color: #fff; padding: 5px 10px; border-radius: 20px;">CSS</span>
+                </div>
+              </div>
+          
+              <div class="skill-category">
+                <h3 style="font-weight: bold; color: #34495e;">Data Skills</h3>
+                <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+                  <span style="background-color: #444; color: #fff; padding: 5px 10px; border-radius: 20px;">Data Transformation</span>
+                  <span style="background-color: #444; color: #fff; padding: 5px 10px; border-radius: 20px;">Dashboard / Reporting</span>
+                  <span style="background-color: #444; color: #fff; padding: 5px 10px; border-radius: 20px;">Machine / Deep Learning / AI</span>
+                  <span style="background-color: #444; color: #fff; padding: 5px 10px; border-radius: 20px;">Statistical Analysis</span>
+                </div>
+              </div>
+          
+            </div>
+          </section>
+
+        <section id="projects">
+            <h2><img src="https://img.icons8.com/ios-filled/50/ffffff/project.png" alt="Projects Icon" class="icon">Featured Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="./images/cost-benefit.png" alt="Project 1 Image">
+                    <h3>Smart Target</h3>
+                    <p>Developed a data-driven marketing strategy by segmenting customers with K-Means clustering and building a Random Forest model to predict campaign responses with high accuracy. The project culminated in an ROI simulation proving the targeted approach was significantly more profitable than mass marketing.</p>
+                    <div class="project-tags">
+                        <span>Python |</span>
+                        <span>Scikit-learn |</span>
+                        <span>SHAP</span>
+                    </div>
+                    <a href="https://github.com/thanabodi-p/Project/tree/main/Smart%20Target" class="btn">View on GitHub</a>
+                </div>
+                <div class="project-card">
+                    <img src="./images/roc.png" alt="Project 2 Image">
+                    <h3>ICU Shock Prediction Using Deep Learning (Senior Project)</h3>
+                    <p>This senior research project focuses on developing a deep learning model using time series data to predict shock in ICU patients at Srinagarind Hospital. By analyzing vital signs and other clinical data, the study compares CNN, LSTM, and Transformer models. The best-performing model, CNN+LSTM, achieved high accuracy (AUC-ROC 0.89), showing potential for real-time ICU applications.</p>
+                     <div class="project-tags">
+                        <span>Python |</span>
+                        <span>Time Series |</span>
+                        <span>TensorFlow</span>
+                    </div>
+                    <a href="#" class="btn">View on Webpage</a>
+                </div>
+                <div class="project-card">
+                    <img src="./images/database.png" alt="Project 3 Image">
+                    <h3>DVD Rental System</h3>
+                    <p>Designed and developed a DVD rental system using MySQL with a fully normalized relational schema and ER model. Covered key components like customer data, inventory, rentals, returns, and genre classification.Implemented queries and stored procedures to simulate real-world rental operations with fee and discount logic.</p>
+                    <div class="project-tags">
+                        <span>SQL |</span>
+                        <span>MicrosoftSQL |</span>
+                        <span>DBDiagram</span>
+                    </div>
+                    <a href="./files/ร้านเช่าดีวีดี-DVD-rental-store.pdf" class="btn">Report</a>
+                    <a href="https://www.canva.com/design/DAFdPoR-74o/2xrazH3QGYQd9619zzNPyA/view?utm_content=DAFdPoR-74o&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h06d95662a7#40" class="btn">Presentation</a>
+                </div>
+        </section>
+        <section id="Awards & Activities">
+            <h2>
+                <img src="https://img.icons8.com/ios-filled/50/ffffff/new-post.png" 
+                     alt="Awards & Activities Icon" class="icon"> 
+                Awards & Activities
+            </h2>
+            <ul>
+                <li>
+                    <strong>Silver Medal (Oral Presentation)</strong>, 
+                    13th Undergraduate Applied Mathematics Conference (UAMC2025) – 
+                    Presented deep learning-based ICU shock prediction research.
+                </li>
+                <li>
+                    <strong>Data Analytics Intern</strong>, 
+                    Bureau of Planning & Special Affairs, Office of the Permanent Secretary – 
+                    Compiled and structured operational data from multiple departments. Created Power BI reports for performance and budget tracking.
+                </li>
+                <li>
+                    <strong>Honorable Mention & Popular Vote</strong>, 
+                    Mini Research to Marketing 2022 – 
+                    Recognized for innovation and public engagement in translating research into business value.
+                </li>
+                <li>
+                    <strong>Digital Technology Advisor</strong>, 
+                    35th Science Tour Camp – 
+                    Led the AV team in media production (video, sound, editing) and designed the official camp polo shirt.
+                </li>
+            </ul>
+        </section>   
+        <section id="certificates">
+            <h2>
+                <img src="https://img.icons8.com/ios-filled/50/ffffff/certificate.png" 
+                     alt="Certificate Icon" class="icon">
+                Certificates
+            </h2>
+            <div class="project-grid">
+        
+                <div class="project-card">
+                    <img src="./images/google_cer.jpeg" alt="Google Data Analytics Certificate">
+                    <h3>Google Business Intelligence program</h3>
+                    <p>I completed three courses in the Google Business Intelligence program, where I learned about BI roles in organizations, practiced data modeling and ETL processes, and developed skills in designing data visualizations and dashboards to communicate insights effectively.</p>
+                    <a href="https://coursera.org/verify/professional-cert/MIDERENPOK7X" class="btn">View Certificate</a>
+                </div>
+        
+                <div class="project-card">
+                    <img src="./images/nvidia_cer.png" alt="TensorFlow Developer Certificate">
+                    <h3>Disaster Risk Monitoring Using Satellite Imagery-NVIDIA</h3>
+                    <p>I learned how to build and deploy deep learning models to detect floods using satellite images. I gained skills in using tools like TAO Toolkit, TensorRT, and Triton Inference Server. I can now apply transfer learning for segmentation tasks and perform real-time model inference for disaster response and management.</p>
+                    <a href="https://learn.nvidia.com/certificates?id=TVJLTzq2RG2cVUjQY0Y_mA" class="btn">View Certificate</a>
+                </div>
+        
+                <div class="project-card">
+                    <img src="./images/ton_um.png" alt="UAMC2025 Silver Medal Award">
+                    <h3>Award-Winning Medical AI Project</h3>
+                    <p>For this award-winning research, I built and trained a deep learning model using time-series data to predict shock in critical care patients. I gained hands-on experience in handling real-world medical data, developing predictive AI models, and presenting complex findings to a scientific audience, earning a Silver Medal at the UAMC2025 conference.</p>
+                    </div>
+                <!-- เพิ่มใบอื่น ๆ ได้ตามต้องการ -->
+                
+            </div>
+        </section>
+        <section id="contact">
+            <h2><img src="https://img.icons8.com/ios-filled/50/ffffff/new-post.png" alt="Contact Icon" class="icon">Get In Touch</h2>
+            <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of an ambitious team. Feel free to reach out to me.</p>
+            <ul class="contact-links">
+                <li><strong>Email:</strong> <a href="mailto:thanabodi2281@gmail.com">thanabodi2281@gmail.com</a></li>
+                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/thanabodi-phuchomsi-a0b783366/" target="_blank">linkedin.com/thanabodi-phuchomsi</a></li>
+                <li><strong>GitHub:</strong> <a href="https://github.com/thanabodi-p/Project/tree/main" target="_blank">github.com/thanabodi-p</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Thanabodi Phuchomsi | Portfolio</p>
+        </div>
+    </footer>
+
+</body>
+</html>
